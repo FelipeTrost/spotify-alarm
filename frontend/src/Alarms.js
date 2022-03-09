@@ -67,7 +67,7 @@ export default function Alarms() {
         setAlarms(message.alarms);
       } catch (error) {
         console.error(error);
-        navigate("/");
+        // navigate("/");
       }
     })();
   }, []);
